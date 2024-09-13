@@ -9,20 +9,30 @@ h1 {
     color: #ff6347;
 }
 
-nav {
-    text-align: left; /* Ensures the navigation is left-aligned */
-    padding-left: 20px; /* Optional: adds a little space from the left edge */
+/* Ensure the navigation menu is left-aligned */
+nav ul {
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: left; /* Ensures the list is aligned to the left */
 }
 
-nav a {
+/* Style the list items inside the navigation */
+nav ul li {
+    display: inline-block; /* Makes list items appear horizontally */
+    margin-right: 15px; /* Adds some spacing between the items */
+}
+
+/* Style the anchor links in the navigation */
+nav ul li a {
     text-decoration: none; /* Removes underline from links */
-    margin-right: 15px; /* Adds spacing between links */
-    color: #333; /* Link color */
+    color: #333; /* Default color for links */
 }
 
-nav a:hover {
+nav ul li a:hover {
     text-decoration: underline; /* Optional: Adds underline on hover */
 }
+
 
 /* Apply this class to only center specific elements, not all text */
 .center-text {
