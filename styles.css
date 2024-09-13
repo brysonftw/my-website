@@ -15,7 +15,7 @@ h1 {
 }
 
 .image-container {
-    display: block;
+    text-align: center;
     margin: 20px auto;
 }
 
