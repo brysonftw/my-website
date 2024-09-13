@@ -9,6 +9,21 @@ h1 {
     color: #ff6347;
 }
 
+nav {
+    text-align: left; /* Ensures the navigation is left-aligned */
+    padding-left: 20px; /* Optional: adds a little space from the left edge */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    margin-right: 15px; /* Adds spacing between links */
+    color: #333; /* Link color */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
 /* Apply this class to only center specific elements, not all text */
 .center-text {
     text-align: center;
