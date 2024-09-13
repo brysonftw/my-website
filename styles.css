@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    text-align: center;
     padding: 20px;
 }
 
@@ -10,10 +9,14 @@ h1 {
     color: #ff6347;
 }
 
-.image-container {
-    display: inline-block;
-    margin: 20px 0;
+/* Apply this class to only center specific elements, not all text */
+.center-text {
     text-align: center;
+}
+
+.image-container {
+    display: block;
+    margin: 20px auto;
 }
 
 .little-prince-image {
@@ -25,7 +28,7 @@ h1 {
 .text-container {
     margin: 20px auto;
     width: 80%;
-    text-align: justify;
+    text-align: justify; /* Justifies text inside the text container */
 }
 
 .highlight-yellow {
@@ -35,4 +38,10 @@ h1 {
 .highlight-red {
     background-color: red;
     color: white;
+}
+
+a {
+    display: block;
+    text-align: center; /* Ensures the link is centered */
+    margin-top: 20px;
 }
